@@ -1,6 +1,8 @@
 # myShell
 myShell is a command interpreter program that gets user commands and executes them.
 
+LineParser.c: This file contains the implementation of a program that takes the raw user input and transforms it into a structured representation that can be easily processed by the shell program.
+
 mypipeline.c: This file contains the implementation of a standalone program (executable) called mypipeline. This program creates a pipeline of two child processes, similar to the shell command "ls -l | tail -n 2". The code should include the necessary steps to create a pipe, fork child processes, and redirect standard input and output.
 
 myshell.c: This file contains the implementation of a shell program with extended features. It includes the following enhancements:
